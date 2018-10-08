@@ -3,7 +3,8 @@
 function require(filePath) {
     let bFileRequired = filePath.substring(0, 2) == './';
     if (!bFileRequired) {
-        console.warn('"required" requires a JS filename starting with ./ to load');
+        //console.warn('"required" requires a JS filename starting with ./ to load');
+        return;
     }
 
     let curScript = document.currentScript;
