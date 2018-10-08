@@ -1,16 +1,15 @@
 # required
 Require for browser
 
-
-Usage:
+<b>Usage:</b>
 
 Add 
-<script src="required.js" type="text/javascript"></script> 
+<b><script src="required.js" type="text/javascript"></script> </b>
 to your HTML file
 
 Now subsequenty added js files can call 
 <br />
-require(./fileName.js)
+<b>require(./fileName.js)</b>.
 <br />
 to load JS files
 
